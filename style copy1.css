@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: 'Roboto Slab', serif;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+    display: inline;
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.header-left{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+.first-name{
+    font-weight: 450;
+    margin: 0;
+}
+.last-name{
+    font-weight: 250;
+    margin: 0;
+}
+.header-right{
+    width: 100%;
+    display: grid;
+    justify-items: end;
+}
+.header-right p{
+    display: inline;
+}
+.icon{
+    color: #D4F1F4;
+    font-size: 2rem;
+    margin-right: 0.5rem;
+}
+.darkgrey{
+    background: darkgrey;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+table{
+    border: 3px solid black;
+    margin: 3rem 0;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+td, th {border: 1px solid black;
+    padding: 0.4rem;
+}
